@@ -11,3 +11,11 @@ const home3p = document.querySelector(".home3p");
 const visitors1p = document.querySelector(".visitors1p");
 const visitors2p = document.querySelector(".visitors2p");
 const visitors3p = document.querySelector(".visitors3p");
+
+// ------ Scores ------
+
+// --- Home score ---
+const home_score = document.querySelector(".home_score");
+
+// --- Visitors score ---
+const visitors_score = document.querySelector(".visitors_score");
