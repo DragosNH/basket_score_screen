@@ -1,0 +1,10 @@
+:root{
+    --orange: #ea7b40;
+    --black: #2c2c2c;
+    --white: #f2f2f2;
+}
+
+body{
+    background-color: var(--black);
+    color: var(--orange);
+}
