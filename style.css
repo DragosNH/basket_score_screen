@@ -1,36 +1,50 @@
-:root{
+:root {
     --orange: #ea7b40;
     --black: #2c2c2c;
     --white: #f2f2f2;
 }
 
-body{
+body {
     background-color: var(--black);
     color: var(--orange);
     font-family: "Roboto", sans-serif;
 }
 
-h1{
+h1 {
     font-size: 5rem;
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 3rem;
     text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.score{
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.visitors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score {
     font-size: 3rem;
 }
 
-.btn{
+.btn {
     border: 3px solid var(--orange);
     background-color: var(--orange);
     color: var(--black);
