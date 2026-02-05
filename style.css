@@ -41,7 +41,8 @@ h2 {
 }
 
 .score {
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: "Nova Mono", monospace;
 }
 
 .btn {
