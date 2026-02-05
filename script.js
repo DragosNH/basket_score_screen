@@ -41,28 +41,23 @@ visitors1p.addEventListener("click", ()=>{
 
 // --- Home ---
 home2p.addEventListener("click", () => {
-    home_score.textContent++;
-    home_score.textContent++;
+    home_score.textContent = parseInt(home_score.textContent) + 2;
 });
 
 // --- Vistors ---
 visitors2p.addEventListener("click", () => {
-    visitors_score.textContent++;
-    visitors_score.textContent++;
+    visitors_score.textContent = parseInt(visitors_score.textContent) + 2;
+
 });
 
 // ------ Three points ------
 
 // --- Home ---
 home3p.addEventListener("click", () => {
-    home_score.textContent++;
-    home_score.textContent++;
-    home_score.textContent++;
+    home_score.textContent = parseInt(home_score.textContent) + 3;
 });
 
 // --- Vistors ---
 visitors3p.addEventListener("click", () => {
-    visitors_score.textContent++;
-    visitors_score.textContent++;
-    visitors_score.textContent++;
+    visitors_score.textContent = parseInt(visitors_score.textContent) + 3;
 });
