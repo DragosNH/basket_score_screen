@@ -16,17 +16,20 @@ const visitors3p = document.querySelector(".visitors3p");
 
 // --- Home score ---
 const home_score = document.querySelector(".home_score");
-// home_score.textContent = 0;
+home_score.textContent = 0;
 
 
 // --- Visitors score ---
 const visitors_score = document.querySelector(".visitors_score");
-let theVisitorsScore = 0;
-visitors_score.value = theVisitorsScore;
+visitors_score.textContent = 0;
 
 
 // --------- Event listener ---------
+
 home1p.addEventListener("click", () => {
-    home_score.textContent++
-    
+    home_score.textContent++;
 });
+
+visitors1p.addEventListener("click", ()=>{
+    visitors_score.textContent++;
+})
