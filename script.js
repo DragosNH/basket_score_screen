@@ -25,11 +25,28 @@ visitors_score.textContent = 0;
 
 
 // --------- Event listener ---------
+// ------ One point ------
 
+// --- Home ---
 home1p.addEventListener("click", () => {
     home_score.textContent++;
 });
 
+// --- Visitors ---
 visitors1p.addEventListener("click", ()=>{
     visitors_score.textContent++;
 })
+
+// ----- Two points ------
+
+// --- Home ---
+home2p.addEventListener("click", () => {
+    home_score.textContent++;
+    home_score.textContent++;
+});
+
+// --- Vistors ---
+visitors2p.addEventListener("click", () => {
+    visitors_score.textContent++;
+    visitors_score.textContent++;
+});
