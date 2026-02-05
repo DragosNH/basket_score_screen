@@ -50,3 +50,19 @@ visitors2p.addEventListener("click", () => {
     visitors_score.textContent++;
     visitors_score.textContent++;
 });
+
+// ------ Three points ------
+
+// --- Home ---
+home3p.addEventListener("click", () => {
+    home_score.textContent++;
+    home_score.textContent++;
+    home_score.textContent++;
+});
+
+// --- Vistors ---
+visitors3p.addEventListener("click", () => {
+    visitors_score.textContent++;
+    visitors_score.textContent++;
+    visitors_score.textContent++;
+});
